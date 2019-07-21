@@ -13,3 +13,7 @@ class LoginCartPageLocators(object):
 	PRICE_ITEM = (By.CSS_SELECTOR, "p.price_color")
 	PRICE_FINAL = (By.CSS_SELECTOR, "#messages p strong")
 	NAME_FINAL = (By.CSS_SELECTOR, "#messages strong")
+	MESSAGES = (By.CSS_SELECTOR, "#messages")
+
+class BasePageLocators(object):
+	LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
