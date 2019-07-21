@@ -8,4 +8,8 @@ class LoginPageLocators(object):
 	LOGIN_REG = (By.CSS_SELECTOR, "#register_form")
 
 class LoginCartPageLocators(object):
-	LOGIN_BUT = (By.CSS_SELECTOR, ".btn.btn-lg.btn-primary.btn-add-to-basket")
+	ADD_BUT = (By.CSS_SELECTOR, ".btn.btn-lg.btn-primary.btn-add-to-basket")
+	NAME_ITEM = (By.CSS_SELECTOR, "h1")
+	PRICE_ITEM = (By.CSS_SELECTOR, "p.price_color")
+	PRICE_FINAL = (By.CSS_SELECTOR, "#messages p strong")
+	NAME_FINAL = (By.CSS_SELECTOR, "#messages strong")
