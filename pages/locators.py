@@ -17,3 +17,8 @@ class LoginCartPageLocators(object):
 
 class BasePageLocators(object):
 	LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+
+class CartPageLocators(object):
+	CART_BTN = (By.CSS_SELECTOR, ".btn-group .btn.btn-default")
+	CART_BLANK = (By.CSS_SELECTOR, "h2 .col-sm-6.h3")
+	CART_TEXT = (By.CSS_SELECTOR, "p")

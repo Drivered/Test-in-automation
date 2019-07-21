@@ -1,7 +1,7 @@
 from .base_page import BasePage
 from .locators import LoginCartPageLocators
 
-class CartPage(BasePage):
+class ProductPage(BasePage):
 	def test_add_cart(self):
 		self.button_add_cart()
 		self.solve_quiz_and_get_code()
