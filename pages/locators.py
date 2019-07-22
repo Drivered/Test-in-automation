@@ -17,8 +17,15 @@ class LoginCartPageLocators(object):
 
 class BasePageLocators(object):
 	LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+	USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 class CartPageLocators(object):
 	CART_BTN = (By.CSS_SELECTOR, ".btn-group .btn.btn-default")
 	CART_BLANK = (By.CSS_SELECTOR, "h2 .col-sm-6.h3")
 	CART_TEXT = (By.CSS_SELECTOR, "p")
+
+class RegistrationPageLocators(object):
+	EMAIL_USER = (By.CSS_SELECTOR, "#id_registration-email")
+	PASSWORD1_USER = (By.CSS_SELECTOR, "#id_registration-password1")
+	PASSWORD2_USER = (By.CSS_SELECTOR, "#id_registration-password2")
+	BTN_REG = (By.CSS_SELECTOR, "[value ='Register']")
